@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>NoSuchKey</Code>
+  <Message>The specified key does not exist.</Message>
+  <RequestId>67AEFEC2760AD5363811035F</RequestId>
+  <HostId>floodsimulation.oss-rg-china-mainland.aliyuncs.com</HostId>
+  <Key>flood4404/10.geojson</Key>
+  <EC>0026-00000001</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0026-00000001</RecommendDoc>
+</Error>
