@@ -134,7 +134,7 @@ let UIConfig = {
     model:[
         {img:"1.jpg", path:"1.glb", title:"坦克1" , Download:true, preview:true},
         {img:"1.jpg", path:"1.glb", title:"坦克2" , Download:false, preview:false},
-        {img:"1.jpg", path:"1.glb",  title:"坦克3" , Download:true, preview:true},
+        {img:"img9.jpg", path:"1.glb",  title:"坦克3" , Download:true, preview:true},
         {img:"1.jpg", path:"1.glb",  title:"坦克4" , Download:true, preview:true}
     ]
     
