@@ -311,6 +311,11 @@ p {
     width: 72px;
     height: 72px;
 }
+.img-100 {
+    height: 100px;
+    width:100px;
+}
+ 
 
 .img-90 {
     width: 90px;
@@ -2952,18 +2957,41 @@ ul.customer-rating li:last-child {
 
 .top-items-container .top-item-details h6 {
     margin: 15px 0 10px 0;
-    color: #5e6973;
+    line-height: 22px;
+    font-weight: 500;
+    color: #0961b3;
 }
+.top-items-container .top-item-details .product-price {
+    color: #a90000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    clear: both;
+    width: 100%;
+    margin-block: 0 5px;
+    letter-spacing: -.5px;
+    text-align: center;
+}
+
+ .product-miniature {
+    margin: 5px;
+    position: relative;
+    padding: 15px;
+    background-color: #fff;
+    border-radius:5px;
+}
+
 
 .top-items-container .top-item-details .rating-block {
     margin: 0 auto 10px auto;
-    width: 124px !important;
-    display: -webkit-box;
+    width: 100% !important;
+ 
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
+ 
     -ms-flex-align: center;
-    align-items: center;
+ 
+    display: ruby;
+    text-align: center;
 }
 
 .top-items-container .top-item-details .rating-block img {
@@ -2972,10 +3000,10 @@ ul.customer-rating li:last-child {
 }
 
 .top-items-container .top-item-details .rating-block .rating-count {
-    font-size: 14px;
+    font-size: 20px;
     margin: 0 0 0 3px;
-    font-weight: 300;
-    color: #9aa5af;
+    font-weight: 3900;
+    color: #a90000;
 }
 
 .cakes-list {
@@ -7761,6 +7789,7 @@ img.hover-tabs-img {
 .card .card-body {
     padding: 1.25rem 1.25rem;
     position: relative;
+    background-color: #f1f5f6;
 }
 
 .card .card-body .card-title {
@@ -9051,7 +9080,7 @@ label {
 .btn-close {
     color: #ffffff;
     text-shadow: 0 1px 0 #000000;
-    background: url(../img/cancel.svg) center/1em auto no-repeat;
+    background: url(/img/cancel.svg) center/1em auto no-repeat;
     margin-right: 0 !important;
 }
 
@@ -9423,3 +9452,93 @@ label {
 .cesium-credit-logoContainer,.cesium-credit-expand-link {
     display: none !important;
 }
+
+
+
+.form_container {
+    background-color: #FFF;
+    border: .1em solid #CCC;
+    border-radius: 1em;
+    padding: 2em;
+    box-shadow: 0 3px 0 rgba(0,0,0,.1);
+    position: relative
+}
+
+.wechat_logo_container {
+    position: relative;
+    top: -1em;
+    text-align: center;
+    padding-bottom: .5em
+}
+
+.wechat_logo_container>img {
+    height: 2.5em
+}
+
+.lang-en .logo_zh,.lang-zh .logo_en {
+    display: none!important
+}
+
+.lang_selector_container {
+    position: absolute;
+    right: 1.2em;
+    top: -1.5em
+}
+
+.form_group {
+    display: block;
+    margin-bottom: 1em
+}
+
+.form_group .label {
+    float: left;
+    min-width: 7.6em;
+    color: #777;
+    text-align: right;
+    word-break: break-all
+}
+
+.form_group .label:after {
+    content: ":";
+    display: block;
+    margin: 0 .5em;
+    color: #AAA;
+    float: right
+}
+
+.form_group .value {
+    margin-left: 7.1em;
+    color: #222;
+    text-overflow: ellipsis;
+    word-break: break-all
+}
+
+.form_group .value.amount {
+    font-weight: 700
+}
+
+#qr_code {
+    margin-top: 1.5em;
+    padding: 1em;
+    border: 1px dotted #DDD
+}
+
+#QRCodeImageControl > img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.padding10 
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mon
+{
+ color: red;
+}
+

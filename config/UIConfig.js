@@ -68,62 +68,64 @@ let UIConfig = {
     ],
     meuns: [
         {
-            name: 'Dashboards', icon: 'icon-home2', id: 'home-tab', ahref:'', href: 'tab-home', ariacontrols: 'tab-home', ariaselected: false,
+            name: '菜单', icon: 'icon-home2', id: 'home-tab', ahref:'', href: 'tab-home', ariacontrols: 'tab-home', ariaselected: false,
             class: "nav-link",
             sidebarmenu: [
 
                 {
-                    ulname: "Dashboard", class:"list-heading",
+                    ulname: "菜单", class:"list-heading",
                     a: [
-                        { name: 'Dashboard', href: "example" },
-                        { name: 'Analytics', href: "blank" }
-                    ],
-
-                },
-                {
-                    ulname: "Layouts",class:"list-heading",
-                    a: [
-                        { name: 'Dashboard', href: "example" },
-                        { name: 'Analytics', href: "blank" }
+                        { name: '免费模型', href: "#3dmodels" },
+                        { name: '付费模型', href: "#3dmodelspay" }
                     ],
 
                 }
+                // {
+                //     ulname: "Layouts",class:"list-heading",
+                //     a: [
+                //         { name: 'Dashboard', href: "example" },
+                //         { name: 'Analytics', href: "blank" }
+                //     ],
+
+                // }
 
             ],
 
             sidebarstarts: [
-                { name: 'Products Grid', href: "#home", context: 12, color: "blue" },
+                { name: '付费模型',   href: "3dmodelspay", context: 22, color: "red" },
+                { name: '免费模型', href: "#3dmodels", context: 12, color: "blue" },
             ]
+
         },
-        {
-            name: 'Product', icon: 'icon-layers2', id: 'product-tab', ahref:'', href: 'tab-product', ariacontrols: 'tab-product', ariaselected: false,
-            class: "nav-link",
-            sidebarmenu: [
-                {
-                    ulname: "Dashboard",class:"list-heading",
-                    a : [
-                        { name: 'Dashboard', href: "example" },
-                        { name: 'Analytics', href: "blank" }
-                    ],
+        // {
+        //     name: 'Product', icon: 'icon-layers2', id: 'product-tab', ahref:'', href: 'tab-product', ariacontrols: 'tab-product', ariaselected: false,
+        //     class: "nav-link",
+        //     sidebarmenu: [
+        //         {
+        //             ulname: "Dashboard",class:"list-heading",
+        //             a : [
+        //                 { name: 'Dashboard', href: "example" },
+        //                 { name: 'Analytics', href: "blank" }
+        //             ],
 
-                },
-                {
-                    ulname: "Layouts",class:"list-heading",
-                    a: [
-                        { name: 'Daygrid View', href: "example" },
-                        { name: 'List View', href: "blank" }
-                    ],
+        //         },
+        //         {
+        //             ulname: "Layouts",class:"list-heading",
+        //             a: [
+        //                 { name: 'Daygrid View', href: "example" },
+        //                 { name: 'List View', href: "blank" }
+        //             ],
 
-                }
+        //         }
 
-            ],
+        //     ],
 
-            sidebarstarts: [
-                { name: 'New Orders',   href: "VRScreen", context: 12, color: "red" },
-                { name: 'Products Grid', href: "home", context: 12, color: "blue" },
+        //     sidebarstarts: [
+        //         { name: 'New Orders',   href: "VRScreen", context: 12, color: "red" },
+        //         { name: 'Products Grid', href: "home", context: 12, color: "blue" },
 
-            ]
-        },
+        //     ]
+        // },
         {
             name: 'Settings', icon: 'icon-settings1', id: 'settings-tab', ahref:'login', href: 'tab-settings', ariacontrols: 'tab-authentication', ariaselected: false,
             class: "nav-link settings",
@@ -132,11 +134,36 @@ let UIConfig = {
 
     ],
     model:[
-        {img:"1.jpg", path:"1.glb", title:"坦克1" , Download:true, preview:true},
-        {img:"1.jpg", path:"1.glb", title:"坦克2" , Download:false, preview:false},
+        {img:"1.jpg", path:"1.glb", title:"坦克" , Download:true, preview:true},
+    
+        {img:"1.jpg", path:"1.glb",  title:"坦克3" , Download:true, preview:true},
+        {img:"1.jpg", path:"1.glb",  title:"坦克4" , Download:true, preview:true},
+        {img:"1.jpg", path:"1.glb", title:"坦克" , Download:true, preview:true},
+    
+        {img:"1.jpg", path:"1.glb",  title:"坦克3" , Download:true, preview:true},
+        {img:"1.jpg", path:"1.glb",  title:"坦克4" , Download:true, preview:true},
+        {img:"1.jpg", path:"1.glb", title:"坦克" , Download:true, preview:true},
+    
         {img:"1.jpg", path:"1.glb",  title:"坦克3" , Download:true, preview:true},
         {img:"1.jpg", path:"1.glb",  title:"坦克4" , Download:true, preview:true}
+    ],
+    paymodel:[
+        
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+        {img:"2.jpeg", name:"1.glb", title:"汽车" , pay:"100"},
+       
     ]
+
     
 };
 
